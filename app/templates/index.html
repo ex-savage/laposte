@@ -1,0 +1,94 @@
+{% extends 'base.html' %}
+{% block content %}
+
+
+<div class="shipments-table">
+    <h3 class="title is-4" style="text-align: center">Shipments</h3>
+    {% if not shipments %} Our db is empty! Please try request shipment info by any ID {% endif %}
+    <div class="shipment-list">
+        {% for shipment in shipments %}
+        <div class="card shipment-item">
+            <a href="{{ url_for('get_shipment_history', shipment_id=shipment['shipment_id']) }}">
+                <div class="s-title">Id: {{shipment.tracking_number}}</div>
+            </a>
+            <div class="s-title">Status: {{shipment.status}}</div>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="add-shipment-block">
+        <h3 class="title is-4" style="text-align: center">Get shipment info from LaPoste</h3>
+        <form action="/shipments/" method="GET" class="common-form"
+              onsubmit="this.action = this.action + this.number.value; this.submit();">
+            <div class="field">
+                <div class="control">
+                    <input class="input" name="number" type="text" placeholder="Tracking number"/>
+                </div>
+            </div>
+            <button type="submit" class="button is-primary search">Search</button>
+        </form>
+    </div>
+    <form action="/shipments" class="common-form">
+        <input type="submit" class="button is-danger search" value="Update status for ALL shipments in local db"/>
+    </form>
+    <div class="add-shipment-block">
+        <h3 class="title is-4" style="text-align: center">Get task status</h3>
+        <form action="/tasks/" method="GET" class="common-form"
+              onsubmit="this.action = this.action + this.task_id.value; this.submit();">
+            <div class="field">
+                <div class="control">
+                    <input class="input" name="task_id" type="text" placeholder="Task ID"/>
+                </div>
+            </div>
+            <button type="submit" class="button is-warning search">Search</button>
+        </form>
+    </div>
+
+
+    <div></div>
+</div>
+
+<style>
+    .add-shipment-block,
+    .shipments-table {
+        margin: 1.5rem 0;
+        max-width: 40rem;
+    }
+
+    .shipment-list {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .shipment-item {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .shipment-item .button {
+        align-self: flex-start;
+    }
+
+    .s-title {
+        font-weight: bold;
+    }
+
+    .common-form {
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+    }
+
+    .common-form > * {
+        margin: 0 1rem;
+    }
+
+    .shipment-status {
+        color: grey;
+        font-weight: normal;
+    }
+</style>
+
+{% endblock %}

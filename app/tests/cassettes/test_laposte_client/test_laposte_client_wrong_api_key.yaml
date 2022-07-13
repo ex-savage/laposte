@@ -1,0 +1,45 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Cookie:
+      - ADRUM_BT=R%3A0%7Cg%3Ac20ec54d-fd5f-407e-bb51-0e38d6bf0bb750869%7Cn%3Acustomer1_0a8d0657-e002-419f-b144-a7c4efdb607d%7Ci%3A4397%7Ce%3A103;
+        TS01b0ee18=018820ec71bc84ef348ca76a05e79c787e15ca8842f84bb0209ee47e3f6570ee004353b7bb57a78f8fc77ea3be899baecd837231b2ad55ae99a8ffe74285efb5e3795efa37
+      User-Agent:
+      - python-requests/2.27.1
+      X-Okapi-Key:
+      - WRONG_KEY
+    method: GET
+    uri: https://api.laposte.fr/suivi/v2/idships/1?lang=en_GB
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6tWSs5PSVWyUgr1cwwN8fAP8oxydVHSUcpNLS5OTAdJhGRkFiskJpdk5ucpFKUW
+        lmYWpQL5eQqJpSUZ+UWZVYkgGaVaAJLWqBtJAAAA
+    headers:
+      content-encoding:
+      - gzip
+      content-length:
+      - '87'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Fri, 27 May 2022 13:58:26 GMT
+      vary:
+      - Accept-Encoding
+      x-git-version:
+      - 3.4.0
+      x-powered-by:
+      - 'okapi-api@4.5.0 #36'
+      x-server-id:
+      - '1282'
+    status:
+      code: 401
+      message: Unauthorized
+version: 1

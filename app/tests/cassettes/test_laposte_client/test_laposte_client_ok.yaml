@@ -1,0 +1,65 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Cookie:
+      - ADRUM_BT=R%3A0%7Cg%3A7efb989e-5bed-4034-b347-a59b4599f92563879%7Cn%3Acustomer1_0a8d0657-e002-419f-b144-a7c4efdb607d%7Ci%3A4397%7Ce%3A100;
+        TS01b0ee18=018820ec71b49a7ac084bd545270351aacd2032751f84bb0209ee47e3f6570ee004353b7bb57a78f8fc77ea3be899baecd837231b21afb4932d259fca4085e368f80c7f79c
+      User-Agent:
+      - python-requests/2.27.1
+      X-Okapi-Key:
+      - U4ctYdEgZn4caOfoo0xOlQXqjUaHMEAMKlZLf2StiIg3lmvkIrcIerEt/x0Xg7oS
+    method: GET
+    uri: https://api.laposte.fr/suivi/v2/idships/6A21757464334?lang=en_GB
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA62Vb2vbMBDGv4qmt8sf23HSzTDG1qyj0EHpCmOMMhT7EosqOk86xw0h332ntOnS
+        OKGl7I2x5FOe3z13uqykUXYmMwn299fPsiN9jhXwmp+Wlw6odvYUC95Looi/l7qagyWZraQuvvOK
+        g0efkvhkeJKO0sEg5VMlmgKczNKOrBwWdc7hMkejvddz5ADtz7RVRmbkaujIAoxegFuOFQXtJEqS
+        bhR3k+F1nGTDUTZM30ZxFkV8kqXbcel1Ej5n6egxjvScf9Ry2K8VQ6OjCzUBVpQ/sXaiUi4HI7QX
+        FhsxAW1nglFz8B4KMVmKCyUu0bNMRxq0s+3hwF7ILGbm5xlyrAPt/TFPimq/zZiWweV43dmDO6fA
+        tM+jrQjQFqhBd9s7zJS8SnDXjVJ5oZzjUhRCMQh5sa2M8JrgiPDgVcI/gLWAkwRWD+kud0im6B6l
+        j6im/yXdCYDdKkGxp8TFaDimcFhVbAlOp6ESG04DROAmeNd7wBm2O+JA976A+IZ7fLG5YNy4+ebi
+        yfF5HNBelMMeonhgfBYuWPUg922cHJHj3uTGoBKeNgbv8LYHtwB/L66KwnHv9kSrzJpa1W2zRe+y
+        AbMN22xfro9ZwWzklGWeIEOlw3pWbu6NwZn2pHMvKqOI1ecciuzbjmu8ZnDBdv6pdX5rluG1Qh5Y
+        EwOHIFv3fQdyfHUMstHGCI9og3qpbBH6igmCfu3fiKf3P3h2P46C5R443B1miQdZ+p4ptiw3odcs
+        wR3xrFRhWG8NPy1R53BoJ1p3JDo90zzvd9p0MxGU+bd3dsW5ytqF3Eqiymf9ftM0PaOqMDF7U9fH
+        mrTxfV/rhYPuAn0X7AK1/xgM+vD072K9/guA9JTuhQYAAA==
+    headers:
+      allow:
+      - HEAD, GET
+      cache-control:
+      - no-cache, private
+      content-encoding:
+      - gzip
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Fri, 27 May 2022 13:58:25 GMT
+      set-cookie:
+      - ADRUM_BT=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/
+      - ADRUM_BT=R%3A0%7Cg%3Afb78d27d-f728-49ee-afb3-8e149e3dd9e639356%7Cn%3Acustomer1_0a8d0657-e002-419f-b144-a7c4efdb607d%7Ci%3A4397%7Ce%3A114;
+        expires=Fri, 27-May-2022 13:58:55 GMT; Max-Age=30; path=/; secure
+      - TS01b0ee18=018820ec71e1a73b7a2f57c7fe54f691b0bdc10535f84bb0209ee47e3f6570ee004353b7bb57a78f8fc77ea3be899baecd837231b22658a7a251ae477388998078bcf2c2ef;
+        Path=/
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding
+      x-git-version:
+      - 3.4.0
+      x-powered-by:
+      - 'okapi-api@4.5.0 #173'
+      x-server-id:
+      - '1284'
+    status:
+      code: 200
+      message: OK
+version: 1

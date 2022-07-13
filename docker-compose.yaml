@@ -1,0 +1,18 @@
+version: '3.7'
+
+services:
+
+  backend:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    container_name: laposte-backend
+    command: sh -c "nohup poetry run flask run --host=0.0.0.0 & poetry run celery -A app.main.celery worker --loglevel=info"
+    environment:
+      FLASK_APP: app/main
+      FLASK_ENV: development
+      FLASK_CONFIG: development
+      FLASK_DEBUG: 1
+      LAPOSTE_KEY: ${LAPOSTE_KEY}
+    ports:
+      - "5000:5000"

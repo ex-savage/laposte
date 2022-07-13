@@ -1,0 +1,52 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.27.1
+      X-Okapi-Key:
+      - U4ctYdEgZn4caOfoo0xOlQXqjUaHMEAMKlZLf2StiIg3lmvkIrcIerEt/x0Xg7oS
+    method: GET
+    uri: https://api.laposte.fr/suivi/v2/idships/1?lang=en_GB
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA0WOMQvCQAyF/0q4uRQFJ0cdnJwUHCXexTZYcyWXKxTxv5uK4BL4Xl7eyysoWVXZ
+        50Rhu1mtmp9wpFKwcy2cewKpzxspzLkCiZFSAi4g2WDCgVMLFwKWiY2+HssQe4qPBXS50LnxPYyo
+        xrEOqGD/1Hx3NypGDy5taMKA0nkxyfWwcywxj8sjPsWR06nn0Xkd3h9k1D0xvwAAAA==
+    headers:
+      allow:
+      - HEAD, GET
+      cache-control:
+      - no-cache, private
+      content-encoding:
+      - gzip
+      content-length:
+      - '163'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Fri, 27 May 2022 13:58:24 GMT
+      set-cookie:
+      - ADRUM_BT=R%3A0%7Cg%3A194918e5-978c-44f7-900e-2527a2cb482251547%7Cn%3Acustomer1_0a8d0657-e002-419f-b144-a7c4efdb607d%7Ci%3A4397%7Ce%3A103;
+        expires=Fri, 27-May-2022 13:58:54 GMT; Max-Age=30; path=/; secure
+      - TS01b0ee18=018820ec71f6b6be3956ab289df5befcff3f59c632f84bb0209ee47e3f6570ee004353b7bb57a78f8fc77ea3be899baecd837231b258215da618e59576799b634bea153faf;
+        Path=/
+      vary:
+      - Accept-Encoding
+      x-git-version:
+      - 3.4.0
+      x-powered-by:
+      - 'okapi-api@4.5.0 #37'
+      x-server-id:
+      - '1282'
+    status:
+      code: 400
+      message: Bad Request
+version: 1

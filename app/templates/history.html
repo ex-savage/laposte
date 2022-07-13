@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block content %}
+
+
+<div class="tasks-table">
+    <h3 class="title is-4">Shipment History</h3>
+    <div class="task-list">
+        {% for event in events %}
+        <div class="card task-item">
+            <div class="s-title">Status: {{event.status}}</div>
+            <div class="s-title">Code: {{event.code}}</div>
+            <div class="s-title">Date: {{event.date}}</div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<style>
+
+</style>
+
+{% endblock %}

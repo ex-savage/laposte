@@ -1,0 +1,56 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Cookie:
+      - ADRUM_BT=R%3A0%7Cg%3Ab1c491b3-2d0a-4a6c-b54d-7bd192445db046868%7Cn%3Acustomer1_0a8d0657-e002-419f-b144-a7c4efdb607d%7Ci%3A4397%7Ce%3A105;
+        TS01b0ee18=018820ec7165d2928b6a27e4542e7a7edc85268d80f84bb0209ee47e3f6570ee004353b7bb57a78f8fc77ea3be899baecd837231b2fe6bc1158acfa6b1af8d585391d58446
+      User-Agent:
+      - python-requests/2.27.1
+      X-Okapi-Key:
+      - U4ctYdEgZn4caOfoo0xOlQXqjUaHMEAMKlZLf2StiIg3lmvkIrcIerEt/x0Xg7oS
+    method: GET
+    uri: https://api.laposte.fr/suivi/v2/idships/WRONG?lang=en_GB
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA0WOMQvCQAyF/0q4uZQOTo46dFJBhY4S76I9rLmSyxWK+N9NRXAJfC8v7+XlhLQI
+        b1Mgt141TfUTdpQz3k1z556Ay/NKAnMqQKwkFCBm4KQw4RBDDR1B5CkqfT2awPfkHwvIciFzZXsY
+        UTT6MqCA/lPTzdwo6C04165yA/Ldiokv7cYw+zQuj9hkwxhOfRyNu+Nh37r3BzIKC5vDAAAA
+    headers:
+      allow:
+      - HEAD, GET
+      cache-control:
+      - no-cache, private
+      content-encoding:
+      - gzip
+      content-length:
+      - '168'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Fri, 27 May 2022 13:58:25 GMT
+      set-cookie:
+      - ADRUM_BT=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/
+      - ADRUM_BT=R%3A0%7Cg%3Ac20ec54d-fd5f-407e-bb51-0e38d6bf0bb750869%7Cn%3Acustomer1_0a8d0657-e002-419f-b144-a7c4efdb607d%7Ci%3A4397%7Ce%3A103;
+        expires=Fri, 27-May-2022 13:58:55 GMT; Max-Age=30; path=/; secure
+      - TS01b0ee18=018820ec71bc84ef348ca76a05e79c787e15ca8842f84bb0209ee47e3f6570ee004353b7bb57a78f8fc77ea3be899baecd837231b2ad55ae99a8ffe74285efb5e3795efa37;
+        Path=/
+      vary:
+      - Accept-Encoding
+      x-git-version:
+      - 3.4.0
+      x-powered-by:
+      - 'okapi-api@4.5.0 #174'
+      x-server-id:
+      - '1284'
+    status:
+      code: 400
+      message: Bad Request
+version: 1

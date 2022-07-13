@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <title>{% block title %}LaPoste Tracker{% endblock %}</title>
+</head>
+
+<body>
+<div class="container">
+    <h1 class="title has-text-centered mt-6">LaPoste Tracker 📦</h1>
+    <div id="content" class="container">{% block content %}
+        {% endblock %}
+    </div>
+
+</div>
+</body>
+<style>
+    #content {
+        max-width: 40rem;
+    }
+</style>
+</html>

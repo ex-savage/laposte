@@ -1,0 +1,68 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Cookie:
+      - ADRUM_BT=R%3A0%7Cg%3Afb78d27d-f728-49ee-afb3-8e149e3dd9e639356%7Cn%3Acustomer1_0a8d0657-e002-419f-b144-a7c4efdb607d%7Ci%3A4397%7Ce%3A114;
+        TS01b0ee18=018820ec71e1a73b7a2f57c7fe54f691b0bdc10535f84bb0209ee47e3f6570ee004353b7bb57a78f8fc77ea3be899baecd837231b22658a7a251ae477388998078bcf2c2ef
+      User-Agent:
+      - python-requests/2.27.1
+      X-Okapi-Key:
+      - U4ctYdEgZn4caOfoo0xOlQXqjUaHMEAMKlZLf2StiIg3lmvkIrcIerEt/x0Xg7oS
+    method: GET
+    uri: https://api.laposte.fr/suivi/v2/idships/6A21757464334,6A22658410765?lang=en_GB
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA+2VbWvbMBDHv4qmt8uDLdt5EIyxNesodFC6whhNGYqtxqKK5Ely3FDy3XdKmi6p
+        Y1pKxgrbmySWT/n/dHe6/+UdlkxNMcVc/fj8EbewTXXB4Rk+FTwa7kqjjnQGayQI4H0uihlXDtM7
+        LLKv8ATBvQ8k7Cf9uBdHUQy7ci0zbjCNW7gwOitTCMeplsJaMdMQIOyxUExi6kzJWzjjUsy5WYyY
+        89okIKQdhG2SXISEJj2axG+DkAYB7ATpelx8QfxrGvce4pyYwZ8qCLu8A2ht3CmbcFDE33VpUMFM
+        yiUSFildoQkXaooANeXW8gxNFuiUoTNtQaaFpVbTzWbPnmEaAvPTDKkuPe16m3XMlXZzYrfwWQ6X
+        rUdwJ84zPeYRCnloxV2lzU1nPxN5keB2NnJmETMGSpEhBiDOok1lkBWONwhHLxL+xkGLwyE5qPvj
+        LrZIrrV5kG5QjQ9y3AnnaqPEs0dKUIwKYjKjiwJSoq+vfSVWnJI7x81E33bucZJ6R+zp3mcQX0GP
+        z1cXDBo3XV08PDoJPdqzzvAIEd0zPgnnU3Uv92VEGuSgN6ExXM53GwNWYNlyM+d2Lc6yzEDvdlCt
+        zMLVqltnCwY0ArakzvbpoikVwOYMU8DjZVxudDnNV/dG6qmwTqQWFZI5UJ9BqIa8bWUNngEcQTp/
+        liK9kQv/s9AwsCaS74Os3fctyNF5E2QlpERWa+XVc6Yy31dA4PVL+wbt3n+fs/U48im3HMLNfpYw
+        ovEQKDYsV77XlOO3DmYl88N6k/CjXIuU71sJli2sjZgKmPdbbbqaCEz+Xjs+h7Pi0viz5c4Vlo67
+        425VVR3JCj8zO9dm3NWlE9KOu7YUc8Pbc23bXM21sO99kt7tWsbSJ+9ATkR6ySAOg34vOYgThe2Q
+        tMnAZ5gMKBk2OdE6DioR0ojQMHqZE1XC5dAIDTNvx3YaBf/bzj9qO42t+hpspwHuVdjOhi0Y0nBA
+        49dpO2vIvoeMhjQOXzFk74IENIppEtQhz46ebqqtzt/xPt9kzCs7JuFLKLdPvTYS/4ozb1igXGRI
+        k/6hnRlc+A9685aJLpdXvwCAJI5mJw4AAA==
+    headers:
+      allow:
+      - HEAD, GET
+      cache-control:
+      - no-cache, private
+      content-encoding:
+      - gzip
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Fri, 27 May 2022 13:58:25 GMT
+      set-cookie:
+      - ADRUM_BT=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/
+      - ADRUM_BT=R%3A0%7Cg%3Ab1c491b3-2d0a-4a6c-b54d-7bd192445db046868%7Cn%3Acustomer1_0a8d0657-e002-419f-b144-a7c4efdb607d%7Ci%3A4397%7Ce%3A105;
+        expires=Fri, 27-May-2022 13:58:55 GMT; Max-Age=30; path=/; secure
+      - TS01b0ee18=018820ec7165d2928b6a27e4542e7a7edc85268d80f84bb0209ee47e3f6570ee004353b7bb57a78f8fc77ea3be899baecd837231b2fe6bc1158acfa6b1af8d585391d58446;
+        Path=/
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding
+      x-git-version:
+      - 3.4.0
+      x-powered-by:
+      - 'okapi-api@4.5.0 #170'
+      x-server-id:
+      - '1284'
+    status:
+      code: 207
+      message: Multi-Status
+version: 1
